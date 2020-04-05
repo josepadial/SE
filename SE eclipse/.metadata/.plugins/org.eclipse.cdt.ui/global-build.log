@@ -1,0 +1,6 @@
+00:59:13 **** Incremental Build of configuration Default for project hello ****
+make all 
+Ensamblando hello.o ...
+/usr/bin/arm-none-eabi-as -gstabs -mcpu=arm7tdmi -mfpu=softfpa hello.s -o hello.o
+/bin/bash: /usr/bin/arm-none-eabi-as: No such file or directory
+make: *** [hello.o] Error 127
